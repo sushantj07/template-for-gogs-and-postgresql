@@ -198,7 +198,7 @@ objects:
         version: "latest"
       from:
         kind: DockerImage
-        name: workstation.lab.example.com:5000/openshiftdemos/gogs:latest
+        name: docker.io/openshiftdemos/gogs:latest
       importPolicy: 
         insecure: true
       name: "latest"
